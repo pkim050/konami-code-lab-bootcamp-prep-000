@@ -13,6 +13,8 @@ const codes = [
 
 function init() {
   // your code here
+  const input = document.querySelector('input');
+  input.addEventListener('keydown', init);
   var counter = 0;
   /*if (key === codes[counter]) {
     counter++;
